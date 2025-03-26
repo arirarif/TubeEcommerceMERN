@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import About from "./pages/About";  
+import About from "./pages/About";
 import Collection from "./pages/Collection";
 import Cart from "./pages/Cart";
 import Contact from "./pages/Contact";
@@ -11,6 +11,7 @@ import Orders from "./pages/Orders";
 import Product from "./pages/Product";
 import "./App.css";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -90,6 +91,7 @@ const App = () => {
           }
         />
       </Routes>
+      <Footer />
     </div>
   );
 };
